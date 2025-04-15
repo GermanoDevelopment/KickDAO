@@ -16,7 +16,7 @@ export const routes = [
   {
     path: "/home",
     component: lazy(() => import("./components/pages/home")),
-    layout: lazy(() => import("./components/templates/platformlayout"))
+    layout: lazy(() => import("./components/templates/defaultlayout"))
   },
   {
     path: "/dashboard",

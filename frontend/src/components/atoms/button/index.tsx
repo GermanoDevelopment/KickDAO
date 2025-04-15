@@ -3,9 +3,10 @@ import classNames from "classnames";
 
 interface ButtonAtomProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text?: string;
-  variant?: "small" | "medium" | "large";
+  variant?: "full" | "outline";
+  size?: "small" | "medium" | "large";
   color?: "primary" | "secondary" | "danger";
-  size?: "fit" | "full";
+  expanded?: boolean;
   filled?: boolean;
   onClick: () => void;
 }
